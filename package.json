@@ -1,0 +1,32 @@
+{
+  "name": "pharmaflow-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+  "next": "15.0.0", // or whatever you have
+  "react": "19.0.0-rc-f994737d14-20240522", // or stable 19.x
+  "react-dom": "19.0.0-rc-f994737d14-20240522",
+  "ai": "^3.3.0",
+  "algoliasearch": "^5.17.0",
+  "react-instantsearch": "^7.23.0",
+  "instantsearch.css": "^8.0.0",
+  "recharts": "^2.12.0"
+}
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
